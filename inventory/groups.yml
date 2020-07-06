@@ -1,0 +1,28 @@
+---
+devnet_day2_lab:
+  #username: cisco
+  #password: cisco
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          #secret: cisco
+          transport: 'telnet'
+
+step_lab:
+  username: labadmin
+  password: 1@bAdMiN
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          #secret: cisco
+          transport: 'telnet'
+    netmiko:
+      extras:
+        device_type: 'cisco_ios_telnet'
+
+    scrapli:
+      platform: cisco_iosxe
+      extras:
+        transport: 'telnet'

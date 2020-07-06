@@ -1,0 +1,29 @@
+SW1:
+  hostname: 10.177.1.2
+  port: 23
+  platform: ios
+  transport: telnet
+  groups:
+    - step_lab
+  data:
+    type: switch
+
+SW2:
+  hostname: 10.177.1.3
+  port: 23
+  platform: ios
+  transport: telnet
+  groups:
+    - step_lab
+  data:
+    type: switch
+
+SW3:
+  hostname: 10.177.1.4
+  port: 23
+  platform: ios
+  transport: telnet
+  groups:
+    - step_lab
+  data:
+    type: switch
