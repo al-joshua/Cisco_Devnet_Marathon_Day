@@ -39,4 +39,4 @@ scrapli==2020.5.9
 six==1.14.0
 textfsm==1.1.0
 typing-extensions==3.7.4.2
-urllib3==1.25.9
+urllib3==1.26.5
